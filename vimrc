@@ -199,3 +199,6 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 set clipboard=unnamed
 
 
+"reduce delays
+"https://www.johnhawthorn.com/2012/09/vi-escape-delays/
+set timeoutlen=1000 ttimeoutlen=10

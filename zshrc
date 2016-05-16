@@ -88,5 +88,6 @@ bindkey '^R' history-incremental-search-backward
 
 source /Users/jsalvatier/.iterm2_shell_integration.zsh
 
-
-. /Users/jsalvatier/torch/install/bin/torch-activate
+alias vim="nvim"
+# 10ms for key sequences https://www.johnhawthorn.com/2012/09/vi-escape-delays/ 
+KEYTIMEOUT=1

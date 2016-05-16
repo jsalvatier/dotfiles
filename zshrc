@@ -6,6 +6,8 @@ export ZSH=/Users/jsalvatier/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
+#ZSH_THEME="agnoster"
+DEFAULT_USER="jsalvatier"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

@@ -163,6 +163,9 @@
 
     #list remotes
     rem="!git config -l | grep remote.*url | tail -n +2"
+
+    #create a GitHub remote from the command line
+    gh-create = !sh -c \"curl -u \\\"jsalvatier\\\" https://api.github.com/user/repos -d \\\"{\\\\\\\"name\\\\\\\":\\\\\\\"$1\\\\\\\"}\\\"\" -
 # }}}
 [pager]
 	diff = diff-so-fancy | less --tabs=1,5 -RFX

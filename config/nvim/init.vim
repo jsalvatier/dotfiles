@@ -16,7 +16,6 @@
 set nocompatible
 filetype off
 
-
 set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -24,6 +23,7 @@ Plugin 'jelera/vim-javascript-syntax'
 " seamless vim/tmux naviation
 Plugin 'christoomey/vim-tmux-navigator'
 
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 filetype plugin indent on
@@ -36,7 +36,7 @@ filetype indent plugin on
 " Enable syntax highlighting
 syntax on
 set background=dark
-"colorscheme solarized
+colorscheme solarized
 
 
 "------------------------------------------------------------

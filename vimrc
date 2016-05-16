@@ -193,6 +193,7 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 "-----
 "treat webppl files like js files
 au BufRead,BufNewFile *.wppl set filetype=javascript
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab 
 
 
 set clipboard=unnamed

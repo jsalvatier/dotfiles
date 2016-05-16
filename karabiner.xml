@@ -82,14 +82,14 @@
   </replacementdef>
   <item>
           <identifier vk_config="true">notsave.fast_vimode</identifier>
-          <autogen>__KeyToKey__ KeyCode::H, KeyCode::CURSOR_LEFT, DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
-          <autogen>__KeyToKey__ KeyCode::J, KeyCode::CURSOR_DOWN, DelayUntilRepeat::RawValue::40, KeyRepeat::RawValue::30</autogen>
-          <autogen>__KeyToKey__ KeyCode::K, KeyCode::CURSOR_UP, DelayUntilRepeat::RawValue::40, KeyRepeat::RawValue::30</autogen>
-          <autogen>__KeyToKey__ KeyCode::L, KeyCode::CURSOR_RIGHT, DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
-          <autogen>__KeyToKey__ KeyCode::U, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L,  DelayUntilRepeat::RawValue::10, KeyRepeat::RawValue::10</autogen>
-          <autogen>__KeyToKey__ KeyCode::O, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L,  DelayUntilRepeat::RawValue::10, KeyRepeat::RawValue::10</autogen>
-          <autogen>__KeyToKey__ KeyCode::N, KeyCode::DELETE, DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
-          <autogen>__KeyToKey__ KeyCode::M, KeyCode::FORWARD_DELETE, DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::H, KeyCode::CURSOR_LEFT,                           DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::J, KeyCode::CURSOR_DOWN,                           DelayUntilRepeat::RawValue::40, KeyRepeat::RawValue::30</autogen>
+          <autogen>__KeyToKey__ KeyCode::K, KeyCode::CURSOR_UP,                             DelayUntilRepeat::RawValue::40, KeyRepeat::RawValue::30</autogen>
+          <autogen>__KeyToKey__ KeyCode::L, KeyCode::CURSOR_RIGHT,  ModifierFlag::OPTION_L, DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::U, KeyCode::CURSOR_LEFT,   ModifierFlag::OPTION_L, DelayUntilRepeat::RawValue::10, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::O, KeyCode::CURSOR_RIGHT,  ModifierFlag::OPTION_L, DelayUntilRepeat::RawValue::10, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::N, KeyCode::DELETE,                                DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::M, KeyCode::FORWARD_DELETE,                        DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
 
   </item>
 </root>

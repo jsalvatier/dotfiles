@@ -16,7 +16,8 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
+
+set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'jelera/vim-javascript-syntax'
@@ -174,6 +175,14 @@ nnoremap <C-L> :nohl<CR><C-L>
 inoremap jj <Esc>
 nnoremap JJJJ <Nop>
 
+"bindings to work right with karabiner
+nnoremap <M-Left>  b
+nnoremap <M-Right> e
+
+"inoremap <M-BS>     <C-w>
+inoremap �          <C-w>
+inoremap <M-Left>   <C-o>b
+inoremap <M-Right>  <C-o>e
 
 "------------------------------------------------------------
 

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<root>
+<replacementdef>
+    <replacementname>SIMPLE_VI_MODE_EXTRA</replacementname>
+    <replacementvalue>
+      <![CDATA[
+         <autogen>
+           __KeyToKey__
+           KeyCode::D,
+           KeyCode::CONTROL_L
+         </autogen>
+          <autogen> __SimultaneousKeyPresses__ @begin KeyCode::E, KeyCode::F ,@end, 
+          @begin 
+          KeyCode::VK_CONFIG_FORCE_OFF_notsave_simple_vi_mode,
+          KeyCode::S,
+          KeyCode::T,
+          @end </autogen>
+         <autogen>
+           __KeyToKey__
+           KeyCode::E,
+           @begin
+           KeyCode::E,
+           @end
+         </autogen>
+         <autogen>
+           __KeyToKey__
+           KeyCode::COMMAND_L,
+           KeyCode::CONTROL_L
+         </autogen>
+         <autogen>
+           __KeyToKey__
+           KeyCode::I,
+           KeyCode::CURSOR_LEFT,
+           DelayUntilRepeat::RawValue::1,
+         </autogen>
+         <autogen>
+             __KeyToKey__
+             KeyCode::F,
+             KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_fast_vimode
+         </autogen>
+         <autogen>
+             __KeyToKey__
+             KeyCode::A,
+             KeyCode::SHIFT_L
+         </autogen>
+         <autogen>
+           __KeyToKey__
+           KeyCode::P,
+           KeyCode::V,
+           ModifierFlag::COMMAND_L
+         </autogen>
+         <autogen>
+           __KeyToKey__
+           KeyCode::SEMICOLON,
+           KeyCode::X,
+           ModifierFlag::COMMAND_L
+         </autogen>
+         <autogens>
+           __KeyToKey__
+           KeyCode::U,
+           KeyCode::CURSOR_LEFT,
+           ModifierFlag::OPTION_L,
+         </autogen>
+         <autogen>
+           __KeyToKey__
+           KeyCode::O,
+           KeyCode::CURSOR_RIGHT,
+           ModifierFlag::OPTION_L,
+         </autogen>
+         <autogen>
+           __KeyToKey__
+           KeyCode::N,
+           KeyCode::DELETE,
+         </autogen>
+         <autogen>
+           __KeyToKey__
+           KeyCode::M,
+           KeyCode::FORWARD_DELETE,
+         </autogen>
+        ]]>
+    </replacementvalue>
+  </replacementdef>
+  <item>
+          <identifier vk_config="true">notsave.fast_vimode</identifier>
+          <autogen>__KeyToKey__ KeyCode::H, KeyCode::CURSOR_LEFT, DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::J, KeyCode::CURSOR_DOWN, DelayUntilRepeat::RawValue::40, KeyRepeat::RawValue::30</autogen>
+          <autogen>__KeyToKey__ KeyCode::K, KeyCode::CURSOR_UP, DelayUntilRepeat::RawValue::40, KeyRepeat::RawValue::30</autogen>
+          <autogen>__KeyToKey__ KeyCode::L, KeyCode::CURSOR_RIGHT, DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::U, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L,  DelayUntilRepeat::RawValue::10, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::O, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L,  DelayUntilRepeat::RawValue::10, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::N, KeyCode::DELETE, DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
+          <autogen>__KeyToKey__ KeyCode::M, KeyCode::FORWARD_DELETE, DelayUntilRepeat::RawValue::30, KeyRepeat::RawValue::10</autogen>
+
+  </item>
+</root>

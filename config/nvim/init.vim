@@ -178,6 +178,7 @@ nnoremap JJJJ <Nop>
 "bindings to work right with karabiner
 nnoremap <M-Left>  b
 nnoremap <M-Right> e
+nnoremap �         db
 
 "inoremap <M-BS>     <C-w>
 inoremap �          <C-w>

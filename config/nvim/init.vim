@@ -20,7 +20,7 @@ set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'jelera/vim-javascript-syntax'
-" seamless vim/tmux naviation
+" seamless vim/tmux navigation
 Plugin 'christoomey/vim-tmux-navigator'
 
 Plugin 'altercation/vim-colors-solarized'
@@ -180,7 +180,6 @@ nnoremap <M-Left>  b
 nnoremap <M-Right> e
 nnoremap �         db
 
-"inoremap <M-BS>     <C-w>
 inoremap �          <C-w>
 inoremap <M-Left>   <C-o>b
 inoremap <M-Right>  <C-o>e

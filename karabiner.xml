@@ -16,43 +16,14 @@
         1. J/K move up/down fast
         2. N is delete to beg of word
       -->
-        <autogen>
-            __KeyToKey__
-            KeyCode::D,
-            KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_fast_vimode
-        </autogen>
-        <autogen>
-            __KeyToKey__
-            KeyCode::A,
-            KeyCode::SHIFT_L
-        </autogen>
-        <autogen>
-            __KeyToKey__
-            KeyCode::P,
-            KeyCode::V,
-            ModifierFlag::COMMAND_L
-        </autogen>
-        <autogen>
-            __KeyToKey__
-            KeyCode::SEMICOLON, ModifierFlag::SHIFT_L,
-            KeyCode::X, ModifierFlag::COMMAND_L
-        </autogen>
-        <autogen>
-            __KeyToKey__
-            KeyCode::SEMICOLON,
-            KeyCode::X,
-            ModifierFlag::COMMAND_L
-        </autogen>
-        <autogen>
-            __KeyToKey__
-            KeyCode::N,
-            KeyCode::DELETE,
-        </autogen>
-        <autogen>
-            __KeyToKey__
-            KeyCode::M,
-            KeyCode::FORWARD_DELETE,
-        </autogen>
+        <autogen> __KeyToKey__ KeyCode::D,             KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_fast_vimode </autogen>
+        <autogen> __KeyToKey__ KeyCode::A,             KeyCode::SHIFT_L </autogen>
+        <autogen> __KeyToKey__ KeyCode::P,             KeyCode::V, ModifierFlag::COMMAND_L </autogen>
+        <autogen> __KeyToKey__ 
+          KeyCode::SEMICOLON, ModifierFlag::SHIFT_L,   KeyCode::X, ModifierFlag::COMMAND_L </autogen>
+        <autogen> __KeyToKey__ KeyCode::SEMICOLON,     KeyCode::X, ModifierFlag::COMMAND_L        </autogen>
+        <autogen> __KeyToKey__ KeyCode::N,             KeyCode::DELETE, </autogen>
+        <autogen> __KeyToKey__ KeyCode::M,             KeyCode::FORWARD_DELETE, </autogen>
         ]]>
     </replacementvalue>
   </replacementdef>

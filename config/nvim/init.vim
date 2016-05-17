@@ -2,8 +2,7 @@
 " Authors: http://vim.wikia.com/wiki/Vim_on_Freenode
 " Description: A minimal, but feature rich, example .vimrc. If you are a
 "              newbie, basing your first .vimrc on this file is a good choice.
-"              If you're a more advanced user, building your own .vimrc based
-"              on this file is still a good idea.
+"              If you're a more advanced user, building your own .vimrc based on this file is still a good idea.
 
 "------------------------------------------------------------
 " Features {{{1
@@ -176,13 +175,15 @@ inoremap jj <Esc>
 nnoremap JJJJ <Nop>
 
 "bindings to work right with karabiner
-nnoremap <M-Left>  b
-nnoremap <M-Right> e
-nnoremap �         db
+nnoremap <M-Left>   b
+nnoremap <M-Right>  e
+nnoremap �          db
 
 inoremap �          <C-w>
 inoremap <M-Left>   <C-o>b
 inoremap <M-Right>  <C-o>e
+
+nnoremap <S-J>      :join 1<CR>
 
 "------------------------------------------------------------
 

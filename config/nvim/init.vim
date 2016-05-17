@@ -172,7 +172,6 @@ nnoremap <C-L> :nohl<CR><C-L>
 
 " remap jj to escape in insert mode (since jj never comes up) 
 inoremap jj <Esc>
-nnoremap JJJJ <Nop>
 
 "bindings to work right with karabiner
 nnoremap <M-Left>   b
@@ -182,8 +181,6 @@ nnoremap �          db
 inoremap �          <C-w>
 inoremap <M-Left>   <C-o>b
 inoremap <M-Right>  <C-o>e
-
-nnoremap <S-J>      :join 1<CR>
 
 "------------------------------------------------------------
 

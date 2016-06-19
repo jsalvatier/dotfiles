@@ -14,6 +14,10 @@ files="bashrc config vimrc zshrc gitignore_global tmux.conf gitconfig npmrc iter
 karabiner_local=karabiner.xml
 karabiner_location=~/Library/Application\ Support/Karabiner/private.xml
 
+#iterm2
+iterm2_local=iterm2_profile/com.googlecode.iterm2.plist
+iterm2_location=~/Library/Preferences/com.googlecode.iterm2.plist
+
 ##########
 
 # create dotfiles_old in homedir
@@ -40,3 +44,8 @@ mv "$karabiner_location" $olddir
 echo "Creating symlink to $karabiner_local in $karabiner_location"
 ln -s $dir/$karabiner_local "$karabiner_location"
 
+#do the same for iterm2
+echo "Moving iterm2 to $olddir"
+mv "$iterm2_location" $olddir
+echo "Creating symlink to $iterm2_local in $iterm2_location"
+ln -s $dir/$iterm2_local "$iterm2_location"

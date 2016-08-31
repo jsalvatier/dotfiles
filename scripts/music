@@ -1,0 +1,2 @@
+#! /bin/bash 
+youtube-dl $1 -o ~/Music/"%(title)s.%(ext)s" -f m4a

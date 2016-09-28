@@ -86,6 +86,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias vim="nvim"
+alias tig="tig status"
 
 set -o vi
 #Keybindings
@@ -94,7 +96,7 @@ bindkey '^R' history-incremental-search-backward
 
 source /Users/jsalvatier/.iterm2_shell_integration.zsh
 
-alias vim="nvim"
+
 # 10ms for key sequences https://www.johnhawthorn.com/2012/09/vi-escape-delays/ 
 KEYTIMEOUT=1
 

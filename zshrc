@@ -53,6 +53,10 @@ plugins=(git)
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/Users/jsalvatier/bin"
 export PATH=~/npm/bin:$PATH
+#python not getting picked up
+export PATH=/System/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}
+export PATH=~/dotfiles/scripts/:${PATH}
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh

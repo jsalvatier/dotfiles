@@ -97,3 +97,6 @@ source /Users/jsalvatier/.iterm2_shell_integration.zsh
 alias vim="nvim"
 # 10ms for key sequences https://www.johnhawthorn.com/2012/09/vi-escape-delays/ 
 KEYTIMEOUT=1
+
+# fixes C-h not working in neovim https://github.com/neovim/neovim/issues/2048
+export TERMINFO="$HOME/.terminfo"

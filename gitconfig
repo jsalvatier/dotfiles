@@ -168,6 +168,9 @@
     gh-just-create-repo = !sh -c \"curl -u \\\"jsalvatier\\\" https://api.github.com/user/repos -d \\\"{\\\\\\\"name\\\\\\\":\\\\\\\"$1\\\\\\\"}\\\"\" -
     gh-create = !git gh-just-create-repo $1 && git remote add jsalvatier git@github.com:jsalvatier/$1.git && git push -u jsalvatier master && :
 
+    #see pulled changes
+    pulled = log -p --reverse --no-merges --stat @{1}..
+
 # }}}
 [pager]
 	diff = diff-so-fancy | less --tabs=1,5 -RFX

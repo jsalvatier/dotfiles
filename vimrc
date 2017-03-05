@@ -23,10 +23,12 @@ call vundle#begin()
 Plugin 'jelera/vim-javascript-syntax'
 " seamless vim/tmux naviation
 Plugin 'christoomey/vim-tmux-navigator'
-
+Plugin 'tpope/vim-vinegar'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
+
 
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
@@ -211,3 +213,6 @@ set clipboard=unnamed
 "reduce delays
 "https://www.johnhawthorn.com/2012/09/vi-escape-delays/
 set timeoutlen=1000 ttimeoutlen=10
+
+
+set lazyredraw

@@ -467,7 +467,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "0",
+            "key_code": "9",
             "modifiers": {
               "optional": [
                 "caps_lock"
@@ -501,7 +501,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "4",
+            "key_code": "0",
             "modifiers": {
               "optional": [
                 "caps_lock",
